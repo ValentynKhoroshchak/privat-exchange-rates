@@ -1,7 +1,7 @@
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/privat_exchange_rates?style=for-the-badge)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/privat_exchange_rates?style=for-the-badge)
 
-**Official Repo:** https://github.com/ValentynKhoroshchak/privat_exchange_rates
+**Official Repo:** https://github.com/ValentynKhoroshchak/privat-exchange-rates
 
 It uses the following libraries:
 
@@ -16,12 +16,12 @@ pip install privat_exchange_rates
 ```python
 from datetime import datetime
 
-from exchange_rates import get_exchange_rates
+from privat_exchange_rates import get_exchange_rates
 
 
 def main():
     exchange_rates = get_exchange_rates(datetime(day=21, month=4, year=2022))
-    
+
     print(exchange_rates)
     # {
     #     'date': '21.04.2022',
